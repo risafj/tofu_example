@@ -96,7 +96,7 @@ class _MyHomePageState extends State<MyHomePage> {
           mainAxisAlignment: MainAxisAlignment.center,
           children: <Widget>[
             const Text(
-              'You have pushed the button this many times:',
+              '\r\nこんにちは。改行で始まる日本語の文章です。\r\nHello. This is a string starting with a newline character and containing Japanese characters.',
             ),
             Text(
               '$_counter',
